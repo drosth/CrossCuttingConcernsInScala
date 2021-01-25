@@ -1,0 +1,24 @@
+#IDEs
+.idea/
+.metals/
+*.iml
+
+# build tool
+/.gradle
+target/
+
+#test
+test-db/
+docker/dev/localstack/data/
+
+/docker/dev/.gradle
+/docker/test/.gradle
+
+.env
+.secret.env
+
+/conf/
+/data/
+/.sbt-version
+
+/docker/dev/mysql/data/

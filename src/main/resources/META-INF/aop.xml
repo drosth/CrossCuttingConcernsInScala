@@ -1,0 +1,11 @@
+<aspectj>
+    <aspects>
+        <!-- declare existing aspects to the weaver -->
+        <aspect name="com.example.LoggableAspect"/>
+    </aspects>
+
+    <weaver options="-verbose">
+        <!-- weave anything -->
+        <include within="*" />
+    </weaver>
+</aspectj>
